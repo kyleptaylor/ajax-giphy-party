@@ -4,17 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Neucha&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <title>Giphy Party!</title>
   </head>
 
   <body>
-    <section id="ui-box">
-      <h1>Welcome to The Giphy Party!</h1>
-      <form action="" id="search-form">
-        <input type="text" id="search-text" />
-        <button id="search-button">Search Giphy</button>
-      </form>
-      <button id="remove-all-button">Clear All</button>
+    <section id="header-box">
+      <div id="title">
+        <h1>Welcome to The Giphy Party!</h1>
+        <h3>Enter a Keyword to Start!</h3>
+      </div>
+      <div id="ui-inputs">
+        <form action="" id="search-form">
+          <input type="text" id="search-text" placeholder="Enter Keyword" />
+          <button id="search-button">Search Giphy</button>
+        </form>
+        <button id="remove-all-button">Clear</button>
+      </div>
     </section>
     <section id="selection-box">
       <div id="remove">X</div>
