@@ -36,7 +36,7 @@ async function getGif(q) {
 }
 
 function appendGif(gifUrl) {
-  $("#gif-output").append(`<img class="picked-gif" src="${gifUrl}">`);
+  $("#gif-output").prepend(`<img class="picked-gif" src="${gifUrl}">`);
 }
 
 $("#remove").click(function () {
